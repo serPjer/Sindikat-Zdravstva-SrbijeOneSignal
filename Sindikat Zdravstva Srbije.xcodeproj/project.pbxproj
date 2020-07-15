@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27CCBF427B1892B5503007B6 /* Pods_Sindikat_Zdravstva_Srbije.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CFFED9F6196B1E285A59EC /* Pods_Sindikat_Zdravstva_Srbije.framework */; };
+		56396A9B23DAE9420044DCA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56396A9A23DAE9420044DCA3 /* AppDelegate.swift */; };
+		56396A9D23DAE9420044DCA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56396A9C23DAE9420044DCA3 /* SceneDelegate.swift */; };
+		56396A9F23DAE9420044DCA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56396A9E23DAE9420044DCA3 /* ViewController.swift */; };
+		56396AA223DAE9420044DCA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56396AA023DAE9420044DCA3 /* Main.storyboard */; };
+		56396AA423DAE9480044DCA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56396AA323DAE9480044DCA3 /* Assets.xcassets */; };
+		56396AA723DAE9480044DCA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56396AA523DAE9480044DCA3 /* LaunchScreen.storyboard */; };
+		56396AAF23DAE9670044DCA3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56396AAE23DAE9670044DCA3 /* Model.swift */; };
+		56396AB123DAF62B0044DCA3 /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56396AB023DAF62B0044DCA3 /* json.swift */; };
+		56BBB33D23DEEF1900ED99D6 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BBB33C23DEEF1900ED99D6 /* MyCell.swift */; };
+		D20875CC24429AF8008D1D80 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20875CB24429AF8008D1D80 /* FavoriteCell.swift */; };
+		D20875CE24429B4A008D1D80 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20875CD24429B4A008D1D80 /* FavoriteVC.swift */; };
+		D20875D02447C35B008D1D80 /* FavoriteDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20875CF2447C35B008D1D80 /* FavoriteDetailVC.swift */; };
+		D20875D22447D291008D1D80 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20875D12447D291008D1D80 /* SearchCell.swift */; };
+		D20875D42447D3FE008D1D80 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20875D32447D3FE008D1D80 /* SearchVC.swift */; };
+		D21008862454CF460041A995 /* SearchDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21008852454CF460041A995 /* SearchDetailVC.swift */; };
+		D29B6A9823E4BCC800229E0F /* MyCellDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B6A9723E4BCC800229E0F /* MyCellDetails.swift */; };
+		D29B6A9C23E4F5DF00229E0F /* DetailVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B6A9B23E4F5DF00229E0F /* DetailVc.swift */; };
+		D2F5F9FA23FDEC0400FB7740 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F5F9F923FDEC0400FB7740 /* InfoCell.swift */; };
+		FA211B14245EC8BA008DC5FC /* MainInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA211B13245EC8BA008DC5FC /* MainInfoCell.swift */; };
+		FA4EE511246A040000A67245 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA4EE510246A040000A67245 /* GoogleService-Info.plist */; };
+		FA4EE58F2472D30600A67245 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4EE58E2472D30600A67245 /* Roboto-Bold.ttf */; };
+		FA4EE5912472D31900A67245 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4EE5902472D31900A67245 /* Roboto-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05666A64C7F1EF1A524D069F /* Pods-Sindikat Zdravstva Srbije.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sindikat Zdravstva Srbije.debug.xcconfig"; path = "Target Support Files/Pods-Sindikat Zdravstva Srbije/Pods-Sindikat Zdravstva Srbije.debug.xcconfig"; sourceTree = "<group>"; };
+		56396A9723DAE9420044DCA3 /* Sindikat Zravstva Srbije.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sindikat Zravstva Srbije.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56396A9A23DAE9420044DCA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56396A9C23DAE9420044DCA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		56396A9E23DAE9420044DCA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56396AA123DAE9420044DCA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56396AA323DAE9480044DCA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56396AA623DAE9480044DCA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56396AA823DAE9480044DCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56396AAE23DAE9670044DCA3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		56396AB023DAF62B0044DCA3 /* json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
+		56BBB33C23DEEF1900ED99D6 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		77CFFED9F6196B1E285A59EC /* Pods_Sindikat_Zdravstva_Srbije.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sindikat_Zdravstva_Srbije.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C232AAF8C64F7297B75FA8FA /* Pods-Sindikat Zdravstva Srbije.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sindikat Zdravstva Srbije.release.xcconfig"; path = "Target Support Files/Pods-Sindikat Zdravstva Srbije/Pods-Sindikat Zdravstva Srbije.release.xcconfig"; sourceTree = "<group>"; };
+		D20875CB24429AF8008D1D80 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		D20875CD24429B4A008D1D80 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		D20875CF2447C35B008D1D80 /* FavoriteDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDetailVC.swift; sourceTree = "<group>"; };
+		D20875D12447D291008D1D80 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		D20875D32447D3FE008D1D80 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		D21008852454CF460041A995 /* SearchDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailVC.swift; sourceTree = "<group>"; };
+		D227128423F9500E00A43024 /* Sindikat Zravstva.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sindikat Zravstva.entitlements"; sourceTree = "<group>"; };
+		D29B6A9723E4BCC800229E0F /* MyCellDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellDetails.swift; sourceTree = "<group>"; };
+		D29B6A9B23E4F5DF00229E0F /* DetailVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailVc.swift; path = ../DetailVc.swift; sourceTree = "<group>"; };
+		D2F5F9F923FDEC0400FB7740 /* InfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		FA211B13245EC8BA008DC5FC /* MainInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInfoCell.swift; sourceTree = "<group>"; };
+		FA4EE510246A040000A67245 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA4EE58E2472D30600A67245 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../Downloads/roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		FA4EE5902472D31900A67245 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../Downloads/roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56396A9423DAE9420044DCA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CCBF427B1892B5503007B6 /* Pods_Sindikat_Zdravstva_Srbije.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2805BA4447478D7B3DD6134E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77CFFED9F6196B1E285A59EC /* Pods_Sindikat_Zdravstva_Srbije.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56396A8E23DAE9420044DCA3 = {
+			isa = PBXGroup;
+			children = (
+				56396A9923DAE9420044DCA3 /* Zdravko */,
+				56396A9823DAE9420044DCA3 /* Products */,
+				A126C2868F39455DF3A76E38 /* Pods */,
+				2805BA4447478D7B3DD6134E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		56396A9823DAE9420044DCA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56396A9723DAE9420044DCA3 /* Sindikat Zravstva Srbije.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56396A9923DAE9420044DCA3 /* Zdravko */ = {
+			isa = PBXGroup;
+			children = (
+				FA4EE58B2472D27600A67245 /* Fonts */,
+				D227128423F9500E00A43024 /* Sindikat Zravstva.entitlements */,
+				FA4EE510246A040000A67245 /* GoogleService-Info.plist */,
+				56396A9A23DAE9420044DCA3 /* AppDelegate.swift */,
+				56396A9C23DAE9420044DCA3 /* SceneDelegate.swift */,
+				D29B6A9723E4BCC800229E0F /* MyCellDetails.swift */,
+				56BBB33C23DEEF1900ED99D6 /* MyCell.swift */,
+				D20875CB24429AF8008D1D80 /* FavoriteCell.swift */,
+				D20875D12447D291008D1D80 /* SearchCell.swift */,
+				56396AA023DAE9420044DCA3 /* Main.storyboard */,
+				56396A9E23DAE9420044DCA3 /* ViewController.swift */,
+				D29B6A9B23E4F5DF00229E0F /* DetailVc.swift */,
+				D20875CD24429B4A008D1D80 /* FavoriteVC.swift */,
+				D20875CF2447C35B008D1D80 /* FavoriteDetailVC.swift */,
+				D20875D32447D3FE008D1D80 /* SearchVC.swift */,
+				D21008852454CF460041A995 /* SearchDetailVC.swift */,
+				FA211B15245EC8C8008DC5FC /* InfoCell */,
+				56396AAE23DAE9670044DCA3 /* Model.swift */,
+				56396AB023DAF62B0044DCA3 /* json.swift */,
+				56396AA323DAE9480044DCA3 /* Assets.xcassets */,
+				56396AA523DAE9480044DCA3 /* LaunchScreen.storyboard */,
+				56396AA823DAE9480044DCA3 /* Info.plist */,
+			);
+			path = Zdravko;
+			sourceTree = "<group>";
+		};
+		A126C2868F39455DF3A76E38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05666A64C7F1EF1A524D069F /* Pods-Sindikat Zdravstva Srbije.debug.xcconfig */,
+				C232AAF8C64F7297B75FA8FA /* Pods-Sindikat Zdravstva Srbije.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA211B15245EC8C8008DC5FC /* InfoCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA211B13245EC8BA008DC5FC /* MainInfoCell.swift */,
+				D2F5F9F923FDEC0400FB7740 /* InfoCell.swift */,
+			);
+			name = InfoCell;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FA4EE58B2472D27600A67245 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA4EE5902472D31900A67245 /* Roboto-Regular.ttf */,
+				FA4EE58E2472D30600A67245 /* Roboto-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56396A9623DAE9420044DCA3 /* Sindikat Zdravstva Srbije */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56396AAB23DAE9480044DCA3 /* Build configuration list for PBXNativeTarget "Sindikat Zdravstva Srbije" */;
+			buildPhases = (
+				D40B75EE7B9F8BCB9FCC7AE7 /* [CP] Check Pods Manifest.lock */,
+				56396A9323DAE9420044DCA3 /* Sources */,
+				56396A9423DAE9420044DCA3 /* Frameworks */,
+				56396A9523DAE9420044DCA3 /* Resources */,
+				F2EC7D161AF71C84E653B8C8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sindikat Zdravstva Srbije";
+			productName = Zdravko;
+			productReference = 56396A9723DAE9420044DCA3 /* Sindikat Zravstva Srbije.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56396A8F23DAE9420044DCA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = 2ADesign;
+				TargetAttributes = {
+					56396A9623DAE9420044DCA3 = {
+						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = 56396A9223DAE9420044DCA3 /* Build configuration list for PBXProject "Sindikat Zdravstva Srbije" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56396A8E23DAE9420044DCA3;
+			productRefGroup = 56396A9823DAE9420044DCA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56396A9623DAE9420044DCA3 /* Sindikat Zdravstva Srbije */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56396A9523DAE9420044DCA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4EE5912472D31900A67245 /* Roboto-Regular.ttf in Resources */,
+				56396AA723DAE9480044DCA3 /* LaunchScreen.storyboard in Resources */,
+				FA4EE511246A040000A67245 /* GoogleService-Info.plist in Resources */,
+				FA4EE58F2472D30600A67245 /* Roboto-Bold.ttf in Resources */,
+				56396AA423DAE9480044DCA3 /* Assets.xcassets in Resources */,
+				56396AA223DAE9420044DCA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D40B75EE7B9F8BCB9FCC7AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sindikat Zdravstva Srbije-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2EC7D161AF71C84E653B8C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sindikat Zdravstva Srbije/Pods-Sindikat Zdravstva Srbije-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sindikat Zdravstva Srbije/Pods-Sindikat Zdravstva Srbije-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sindikat Zdravstva Srbije/Pods-Sindikat Zdravstva Srbije-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56396A9323DAE9420044DCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21008862454CF460041A995 /* SearchDetailVC.swift in Sources */,
+				D20875D22447D291008D1D80 /* SearchCell.swift in Sources */,
+				56396A9F23DAE9420044DCA3 /* ViewController.swift in Sources */,
+				56396A9B23DAE9420044DCA3 /* AppDelegate.swift in Sources */,
+				D20875CE24429B4A008D1D80 /* FavoriteVC.swift in Sources */,
+				D29B6A9823E4BCC800229E0F /* MyCellDetails.swift in Sources */,
+				56396AB123DAF62B0044DCA3 /* json.swift in Sources */,
+				D20875D42447D3FE008D1D80 /* SearchVC.swift in Sources */,
+				56BBB33D23DEEF1900ED99D6 /* MyCell.swift in Sources */,
+				D2F5F9FA23FDEC0400FB7740 /* InfoCell.swift in Sources */,
+				FA211B14245EC8BA008DC5FC /* MainInfoCell.swift in Sources */,
+				56396A9D23DAE9420044DCA3 /* SceneDelegate.swift in Sources */,
+				D20875CC24429AF8008D1D80 /* FavoriteCell.swift in Sources */,
+				D20875D02447C35B008D1D80 /* FavoriteDetailVC.swift in Sources */,
+				D29B6A9C23E4F5DF00229E0F /* DetailVc.swift in Sources */,
+				56396AAF23DAE9670044DCA3 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56396AA023DAE9420044DCA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56396AA123DAE9420044DCA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56396AA523DAE9480044DCA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56396AA623DAE9480044DCA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56396AA923DAE9480044DCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56396AAA23DAE9480044DCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56396AAC23DAE9480044DCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05666A64C7F1EF1A524D069F /* Pods-Sindikat Zdravstva Srbije.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Zdravko/Sindikat Zravstva.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XTTNUX3KP7;
+				INFOPLIST_FILE = Zdravko/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2ADesign.SindikatZdravstva;
+				PRODUCT_NAME = "Sindikat Zravstva Srbije";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56396AAD23DAE9480044DCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C232AAF8C64F7297B75FA8FA /* Pods-Sindikat Zdravstva Srbije.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Zdravko/Sindikat Zravstva.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XTTNUX3KP7;
+				INFOPLIST_FILE = Zdravko/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2ADesign.SindikatZdravstva;
+				PRODUCT_NAME = "Sindikat Zravstva Srbije";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56396A9223DAE9420044DCA3 /* Build configuration list for PBXProject "Sindikat Zdravstva Srbije" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56396AA923DAE9480044DCA3 /* Debug */,
+				56396AAA23DAE9480044DCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56396AAB23DAE9480044DCA3 /* Build configuration list for PBXNativeTarget "Sindikat Zdravstva Srbije" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56396AAC23DAE9480044DCA3 /* Debug */,
+				56396AAD23DAE9480044DCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56396A8F23DAE9420044DCA3 /* Project object */;
+}

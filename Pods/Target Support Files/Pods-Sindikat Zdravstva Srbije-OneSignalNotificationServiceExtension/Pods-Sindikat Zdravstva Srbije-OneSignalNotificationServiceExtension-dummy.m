@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Sindikat_Zdravstva_Srbije_OneSignalNotificationServiceExtension : NSObject
+@end
+@implementation PodsDummy_Pods_Sindikat_Zdravstva_Srbije_OneSignalNotificationServiceExtension
+@end

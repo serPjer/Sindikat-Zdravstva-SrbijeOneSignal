@@ -4,9 +4,13 @@
 target 'Sindikat Zdravstva Srbije' do
 
 use_frameworks!
+pod 'OneSignal', '>= 2.5.2', '< 3.0'
 
-pod 'Firebase'
-pod 'Firebase/Messaging'  
+
+target 'OneSignalNotificationServiceExtension' do
+  pod 'OneSignal', '>= 2.5.2', '< 3.0'
+end
+
 
 end 
 

@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27CCBF427B1892B5503007B6 /* Pods_Sindikat_Zdravstva_Srbije.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CFFED9F6196B1E285A59EC /* Pods_Sindikat_Zdravstva_Srbije.framework */; };
+		17925727D92F531F0089A3A9 /* Pods_Sindikat_Zdravstva_Srbije_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006AB1CF85526790B623F25C /* Pods_Sindikat_Zdravstva_Srbije_OneSignalNotificationServiceExtension.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		203A3A08F42E665ED22B5952 /* Pods_Sindikat_Zdravstva_Srbije.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DE500F563A1D8C19A7E11F /* Pods_Sindikat_Zdravstva_Srbije.framework */; };
 		56396A9B23DAE9420044DCA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56396A9A23DAE9420044DCA3 /* AppDelegate.swift */; };
 		56396A9D23DAE9420044DCA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56396A9C23DAE9420044DCA3 /* SceneDelegate.swift */; };
 		56396A9F23DAE9420044DCA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56396A9E23DAE9420044DCA3 /* ViewController.swift */; };
@@ -17,6 +18,8 @@
 		56396AAF23DAE9670044DCA3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56396AAE23DAE9670044DCA3 /* Model.swift */; };
 		56396AB123DAF62B0044DCA3 /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56396AB023DAF62B0044DCA3 /* json.swift */; };
 		56BBB33D23DEEF1900ED99D6 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BBB33C23DEEF1900ED99D6 /* MyCell.swift */; };
+		61AEC51124F56866007D3705 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AEC51024F56866007D3705 /* NotificationService.swift */; };
+		61AEC51524F56866007D3705 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 61AEC50E24F56866007D3705 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D20875CC24429AF8008D1D80 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20875CB24429AF8008D1D80 /* FavoriteCell.swift */; };
 		D20875CE24429B4A008D1D80 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20875CD24429B4A008D1D80 /* FavoriteVC.swift */; };
 		D20875D02447C35B008D1D80 /* FavoriteDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20875CF2447C35B008D1D80 /* FavoriteDetailVC.swift */; };
@@ -27,13 +30,38 @@
 		D29B6A9C23E4F5DF00229E0F /* DetailVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B6A9B23E4F5DF00229E0F /* DetailVc.swift */; };
 		D2F5F9FA23FDEC0400FB7740 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F5F9F923FDEC0400FB7740 /* InfoCell.swift */; };
 		FA211B14245EC8BA008DC5FC /* MainInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA211B13245EC8BA008DC5FC /* MainInfoCell.swift */; };
-		FA4EE511246A040000A67245 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA4EE510246A040000A67245 /* GoogleService-Info.plist */; };
-		FA4EE58F2472D30600A67245 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4EE58E2472D30600A67245 /* Roboto-Bold.ttf */; };
-		FA4EE5912472D31900A67245 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA4EE5902472D31900A67245 /* Roboto-Regular.ttf */; };
+		FAC532E32670470A00BAA973 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC532E22670470A00BAA973 /* SystemConfiguration.framework */; };
+		FAC532EA267047C900BAA973 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC532E22670470A00BAA973 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		61AEC51324F56866007D3705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56396A8F23DAE9420044DCA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61AEC50D24F56866007D3705;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		61AEC51624F56866007D3705 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				61AEC51524F56866007D3705 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		006AB1CF85526790B623F25C /* Pods_Sindikat_Zdravstva_Srbije_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sindikat_Zdravstva_Srbije_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05666A64C7F1EF1A524D069F /* Pods-Sindikat Zdravstva Srbije.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sindikat Zdravstva Srbije.debug.xcconfig"; path = "Target Support Files/Pods-Sindikat Zdravstva Srbije/Pods-Sindikat Zdravstva Srbije.debug.xcconfig"; sourceTree = "<group>"; };
+		0790BE9895357EBC4CD94523 /* Pods-Sindikat Zdravstva Srbije-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sindikat Zdravstva Srbije-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-Sindikat Zdravstva Srbije-OneSignalNotificationServiceExtension/Pods-Sindikat Zdravstva Srbije-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		56396A9723DAE9420044DCA3 /* Sindikat Zravstva Srbije.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sindikat Zravstva Srbije.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56396A9A23DAE9420044DCA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56396A9C23DAE9420044DCA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +73,11 @@
 		56396AAE23DAE9670044DCA3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		56396AB023DAF62B0044DCA3 /* json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
 		56BBB33C23DEEF1900ED99D6 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
-		77CFFED9F6196B1E285A59EC /* Pods_Sindikat_Zdravstva_Srbije.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sindikat_Zdravstva_Srbije.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61AEC50E24F56866007D3705 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		61AEC51024F56866007D3705 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		61AEC51224F56866007D3705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665860E7C27BB37798317022 /* Pods-Sindikat Zdravstva Srbije-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sindikat Zdravstva Srbije-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-Sindikat Zdravstva Srbije-OneSignalNotificationServiceExtension/Pods-Sindikat Zdravstva Srbije-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		A6DE500F563A1D8C19A7E11F /* Pods_Sindikat_Zdravstva_Srbije.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sindikat_Zdravstva_Srbije.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C232AAF8C64F7297B75FA8FA /* Pods-Sindikat Zdravstva Srbije.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sindikat Zdravstva Srbije.release.xcconfig"; path = "Target Support Files/Pods-Sindikat Zdravstva Srbije/Pods-Sindikat Zdravstva Srbije.release.xcconfig"; sourceTree = "<group>"; };
 		D20875CB24429AF8008D1D80 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		D20875CD24429B4A008D1D80 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
@@ -58,9 +90,9 @@
 		D29B6A9B23E4F5DF00229E0F /* DetailVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailVc.swift; path = ../DetailVc.swift; sourceTree = "<group>"; };
 		D2F5F9F923FDEC0400FB7740 /* InfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
 		FA211B13245EC8BA008DC5FC /* MainInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInfoCell.swift; sourceTree = "<group>"; };
-		FA4EE510246A040000A67245 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FA4EE58E2472D30600A67245 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../Downloads/roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		FA4EE5902472D31900A67245 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../Downloads/roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		FA7DD037263F477600C9248B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../All released versions Sindikat /roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		FA7DD039263F479900C9248B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../All released versions Sindikat /roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		FAC532E22670470A00BAA973 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +100,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27CCBF427B1892B5503007B6 /* Pods_Sindikat_Zdravstva_Srbije.framework in Frameworks */,
+				FAC532EA267047C900BAA973 /* SystemConfiguration.framework in Frameworks */,
+				203A3A08F42E665ED22B5952 /* Pods_Sindikat_Zdravstva_Srbije.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61AEC50B24F56866007D3705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC532E32670470A00BAA973 /* SystemConfiguration.framework in Frameworks */,
+				17925727D92F531F0089A3A9 /* Pods_Sindikat_Zdravstva_Srbije_OneSignalNotificationServiceExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +120,9 @@
 		2805BA4447478D7B3DD6134E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				77CFFED9F6196B1E285A59EC /* Pods_Sindikat_Zdravstva_Srbije.framework */,
+				FAC532E22670470A00BAA973 /* SystemConfiguration.framework */,
+				006AB1CF85526790B623F25C /* Pods_Sindikat_Zdravstva_Srbije_OneSignalNotificationServiceExtension.framework */,
+				A6DE500F563A1D8C19A7E11F /* Pods_Sindikat_Zdravstva_Srbije.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -87,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				56396A9923DAE9420044DCA3 /* Zdravko */,
+				61AEC50F24F56866007D3705 /* OneSignalNotificationServiceExtension */,
 				56396A9823DAE9420044DCA3 /* Products */,
 				A126C2868F39455DF3A76E38 /* Pods */,
 				2805BA4447478D7B3DD6134E /* Frameworks */,
@@ -98,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				56396A9723DAE9420044DCA3 /* Sindikat Zravstva Srbije.app */,
+				61AEC50E24F56866007D3705 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,7 +153,6 @@
 			children = (
 				FA4EE58B2472D27600A67245 /* Fonts */,
 				D227128423F9500E00A43024 /* Sindikat Zravstva.entitlements */,
-				FA4EE510246A040000A67245 /* GoogleService-Info.plist */,
 				56396A9A23DAE9420044DCA3 /* AppDelegate.swift */,
 				56396A9C23DAE9420044DCA3 /* SceneDelegate.swift */,
 				D29B6A9723E4BCC800229E0F /* MyCellDetails.swift */,
@@ -131,11 +176,22 @@
 			path = Zdravko;
 			sourceTree = "<group>";
 		};
+		61AEC50F24F56866007D3705 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				61AEC51024F56866007D3705 /* NotificationService.swift */,
+				61AEC51224F56866007D3705 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
 		A126C2868F39455DF3A76E38 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				05666A64C7F1EF1A524D069F /* Pods-Sindikat Zdravstva Srbije.debug.xcconfig */,
 				C232AAF8C64F7297B75FA8FA /* Pods-Sindikat Zdravstva Srbije.release.xcconfig */,
+				0790BE9895357EBC4CD94523 /* Pods-Sindikat Zdravstva Srbije-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				665860E7C27BB37798317022 /* Pods-Sindikat Zdravstva Srbije-OneSignalNotificationServiceExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -153,8 +209,8 @@
 		FA4EE58B2472D27600A67245 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				FA4EE5902472D31900A67245 /* Roboto-Regular.ttf */,
-				FA4EE58E2472D30600A67245 /* Roboto-Bold.ttf */,
+				FA7DD037263F477600C9248B /* Roboto-Regular.ttf */,
+				FA7DD039263F479900C9248B /* Roboto-Bold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -170,16 +226,35 @@
 				56396A9323DAE9420044DCA3 /* Sources */,
 				56396A9423DAE9420044DCA3 /* Frameworks */,
 				56396A9523DAE9420044DCA3 /* Resources */,
-				F2EC7D161AF71C84E653B8C8 /* [CP] Embed Pods Frameworks */,
+				61AEC51624F56866007D3705 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				61AEC51424F56866007D3705 /* PBXTargetDependency */,
 			);
 			name = "Sindikat Zdravstva Srbije";
 			productName = Zdravko;
 			productReference = 56396A9723DAE9420044DCA3 /* Sindikat Zravstva Srbije.app */;
 			productType = "com.apple.product-type.application";
+		};
+		61AEC50D24F56866007D3705 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61AEC51924F56866007D3705 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				3F37C0640790EAA9D4A34997 /* [CP] Check Pods Manifest.lock */,
+				61AEC50A24F56866007D3705 /* Sources */,
+				61AEC50B24F56866007D3705 /* Frameworks */,
+				61AEC50C24F56866007D3705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 61AEC50E24F56866007D3705 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -194,6 +269,9 @@
 					56396A9623DAE9420044DCA3 = {
 						CreatedOnToolsVersion = 11.2;
 						LastSwiftMigration = 1140;
+					};
+					61AEC50D24F56866007D3705 = {
+						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
@@ -211,6 +289,7 @@
 			projectRoot = "";
 			targets = (
 				56396A9623DAE9420044DCA3 /* Sindikat Zdravstva Srbije */,
+				61AEC50D24F56866007D3705 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -220,18 +299,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4EE5912472D31900A67245 /* Roboto-Regular.ttf in Resources */,
 				56396AA723DAE9480044DCA3 /* LaunchScreen.storyboard in Resources */,
-				FA4EE511246A040000A67245 /* GoogleService-Info.plist in Resources */,
-				FA4EE58F2472D30600A67245 /* Roboto-Bold.ttf in Resources */,
 				56396AA423DAE9480044DCA3 /* Assets.xcassets in Resources */,
 				56396AA223DAE9420044DCA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61AEC50C24F56866007D3705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3F37C0640790EAA9D4A34997 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sindikat Zdravstva Srbije-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D40B75EE7B9F8BCB9FCC7AE7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,23 +357,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F2EC7D161AF71C84E653B8C8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sindikat Zdravstva Srbije/Pods-Sindikat Zdravstva Srbije-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sindikat Zdravstva Srbije/Pods-Sindikat Zdravstva Srbije-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sindikat Zdravstva Srbije/Pods-Sindikat Zdravstva Srbije-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -297,7 +385,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		61AEC50A24F56866007D3705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61AEC51124F56866007D3705 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61AEC51424F56866007D3705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61AEC50D24F56866007D3705 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 61AEC51324F56866007D3705 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		56396AA023DAE9420044DCA3 /* Main.storyboard */ = {
@@ -426,6 +530,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -437,12 +542,34 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 05666A64C7F1EF1A524D069F /* Pods-Sindikat Zdravstva Srbije.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Zdravko/Sindikat Zravstva.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XTTNUX3KP7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Protobuf\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"\"${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/Framework\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/protobuf.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+				);
 				INFOPLIST_FILE = Zdravko/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -450,6 +577,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.2ADesign.SindikatZdravstva;
 				PRODUCT_NAME = "Sindikat Zravstva Srbije";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -463,12 +592,34 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C232AAF8C64F7297B75FA8FA /* Pods-Sindikat Zdravstva Srbije.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Zdravko/Sindikat Zravstva.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XTTNUX3KP7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Protobuf\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"\"${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/Framework\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/protobuf.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+				);
 				INFOPLIST_FILE = Zdravko/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,11 +627,59 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.2ADesign.SindikatZdravstva;
 				PRODUCT_NAME = "Sindikat Zravstva Srbije";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61AEC51724F56866007D3705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0790BE9895357EBC4CD94523 /* Pods-Sindikat Zdravstva Srbije-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XTTNUX3KP7;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.2ADesign.SindikatZdravstva.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES;
+			};
+			name = Debug;
+		};
+		61AEC51824F56866007D3705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 665860E7C27BB37798317022 /* Pods-Sindikat Zdravstva Srbije-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XTTNUX3KP7;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.2ADesign.SindikatZdravstva.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES;
 			};
 			name = Release;
 		};
@@ -501,6 +700,15 @@
 			buildConfigurations = (
 				56396AAC23DAE9480044DCA3 /* Debug */,
 				56396AAD23DAE9480044DCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61AEC51924F56866007D3705 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61AEC51724F56866007D3705 /* Debug */,
+				61AEC51824F56866007D3705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
